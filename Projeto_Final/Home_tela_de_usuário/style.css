@@ -183,6 +183,7 @@ body {
     align-items: center;
     width: calc(100% - 300px);
     transition: 0.5s;
+    padding-top: 20px;
 }
 
 .conteudo.active { 
@@ -191,18 +192,29 @@ body {
 
 .infoAluno {
     width: 100%;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
     border-radius: 30px;
     /* border: 2px solid var(--preto); */
-    margin-top: 150px;
+    margin-top: 20px;
 }
 
 #aulas {
     width: 40%;
     padding: 20px;
+    border-radius: 30px;
     border: 2px solid var(--preto);
+    overflow-y: scroll;
+}
+
+#aulas::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+#aulas ul {
+    margin-top: 30px;
 }
 
 #aulas ul,li,a{
@@ -210,15 +222,69 @@ body {
     text-decoration: none;
 }
 
+.progress {
+    margin: 10px 0px 30px 0px;
+    border-radius: 10px;
+    background-color:#10171a20;
+}
+
+.progress-bar {
+    background: var(--azul2);
+}
+
 #atividades {
     width: 40%;
     padding: 20px;
+    border-radius: 30px;
     border: 2px solid var(--preto);
+    overflow-y: scroll;
 }
 
-.progress {
-    margin: 10px 0px 30px 0px;
+#atividades::-webkit-scrollbar{
+    background-color: transparent;
 }
+
+#atividades dl {
+    margin-top: 30px;
+
+}
+
+.materias {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 3px;
+    border-bottom: 1px solid #10171a20;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.status p {
+    margin: 0;
+}
+
+/* COLORAÇÃO DOS ICONES DE STATUS */
+.entregue {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.naoentregue {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.aguardando {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+/* ________________________________*/
 
 .cards {
     margin-top: 100px;
