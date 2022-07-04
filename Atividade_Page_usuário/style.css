@@ -180,74 +180,44 @@ body {
     width: calc(100% - 300px);
     transition: 0.5s;
     padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .conteudo.active { 
     width: 100%;
-    padding-left: 100px;
 }
 
-.conteudo h1 {
-    margin-bottom: 100px;
-}
-
-.titulo {
-    width: 100%;
-    text-align: left;
-    margin-left: 100px;
-}
-
-.recomendados {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0px 0px 50px 0px;
-    border-bottom: 1px solid #10171a43;
-    overflow-x: auto;
-}
-
-.recomendados::-webkit-scrollbar {
-    background-color: transparent;
-    height: 8px;
-    border-radius: 5px;
-}
-
-.recomendados::-webkit-scrollbar-thumb {
-    background-color:#10171a43;
-    border-radius: 5px;
-}
-
-.recomendados ul {
-    width: 100%;
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-
-li { 
-    list-style: none;
-}
-
-.livro {
-    width: 169px;
-    word-break: break-all;
-    margin: 30px 0px 5px 50px;
-}
-
-.livro img {
-    max-width: 169px;
-    box-shadow: 0px 2px 4px 0px #10171A;
-}
-
-.infoLivro {
-    width: 100%;
-    margin-top: 15px;
-}
-
-.listaLivros {
+#titulo {
+    width: 90%;
     display: flex;
     justify-content: left;
-    flex-wrap: wrap;
-
 }
+
+.area {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.informacoes {
+    width: 90%;
+}
+
+.responsavel{
+    display: flex;
+}
+
+#pontuacao {
+    width: 20%;
+}
+
+.descricao {
+    width: 90%;
+    border: 1px solid var(--azul2);  
+}
+
+.input {
+    width: 10%;
+    border: 1px solid black; 
+}
+
