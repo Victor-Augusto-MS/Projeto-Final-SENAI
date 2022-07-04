@@ -230,7 +230,7 @@ body {
 
 #atividades {
     width: 40%;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     border-radius: 30px;
     border: 2px solid var(--preto);
     overflow-y: scroll;
@@ -248,43 +248,44 @@ body {
 .materias {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 20px;
     padding: 3px;
     border-bottom: 1px solid #10171a20;
 }
 
 .status {
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
+    margin-left: 10px;
 }
 
 .status p {
     margin: 0;
+    font-size: 10px;
 }
 
 /* COLORAÇÃO DOS ICONES DE STATUS */
 
 .entregue {
-    background-color: green;
-    border-radius: 50%;
+    color: green;
 }
 
 .naoentregue {
-    background-color: red;
-    border-radius: 50%;
+    color: red;
 }
 
 .aguardando {
-    background-color: yellow;
-    border-radius: 50%;
+    color:#F2CE1B;
 }
 
 /* ________________________________*/
 
 .cards {
-    width: 80%;
+    width: 87%;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
@@ -298,8 +299,8 @@ body {
   .card {
     width: 100%;
     background-color: var(--azul2);
-    /* background-image: url(/img/banner2.jpg); */
     border-radius: 20px;
+    margin-bottom: 50px;
   }
   
   .card-body {

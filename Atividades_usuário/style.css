@@ -180,74 +180,106 @@ body {
     width: calc(100% - 300px);
     transition: 0.5s;
     padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .conteudo.active { 
     width: 100%;
-    padding-left: 100px;
 }
 
-.conteudo h1 {
-    margin-bottom: 100px;
+.atividadesheader {
+    border-top: 1px solid #10171a20;
+    padding: 8px;
 }
 
-.titulo {
-    width: 100%;
-    text-align: left;
-    margin-left: 100px;
+.atividadesbody {
+    width: 95%;
+    margin-top: 50px;
 }
 
-.recomendados {
-    width: 100%;
+.atividades {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+}
+
+.atividades:nth-child(1){
+    margin-top: 50px;
+}
+
+.atividades h6, p {
+    margin: 0;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.icone h6 {
+    margin-left: 5px;
+}
+
+.status {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-size: 23px;
+}
+
+.status a {
+    font-size: 15px;
+    color: var(--azul1);
+}
+
+/* ------------ ICONES DE STATUS */
+
+.entregue {
+    width: 25%;
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 50px 0px;
-    border-bottom: 1px solid #10171a43;
-    overflow-x: auto;
+    align-items: center;
+    color: green;
 }
 
-.recomendados::-webkit-scrollbar {
-    background-color: transparent;
-    height: 8px;
-    border-radius: 5px;
+.entregue p {
+    color: var(--preto);
+    font-size: 10px;
+    margin-top: 5px;
 }
 
-.recomendados::-webkit-scrollbar-thumb {
-    background-color:#10171a43;
-    border-radius: 5px;
-}
-
-.recomendados ul {
-    width: 100%;
+.naoentregue {
+    width: 25%;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    color: red;
 }
 
-li { 
-    list-style: none;
+.naoentregue p {
+    color: var(--preto);
+    font-size: 10px;
+    margin-top: 5px;
 }
 
-.livro {
-    width: 169px;
-    word-break: break-all;
-    margin: 30px 0px 5px 50px;
-}
-
-.livro img {
-    max-width: 169px;
-    box-shadow: 0px 2px 4px 0px #10171A;
-}
-
-.infoLivro {
-    width: 100%;
-    margin-top: 15px;
-}
-
-.listaLivros {
+.aguardando {
+    width: 25%;
     display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    align-items: center;
+    color: #F2CE1B;
 }
+
+.aguardando p {
+    color: var(--preto);
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* ________________________________*/
