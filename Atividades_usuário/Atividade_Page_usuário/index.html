@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Tela de usuário</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navigation">
+      <div class="main">
+        <div class="toggle">
+          <img src="/img/Logo2.png" alt="" />
+        </div>
+      </div>
+      <ul>
+        <li>
+          <a href="/Home_usuário/index.html">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="play-circle-outline"></ion-icon>
+            </span>
+            <span class="title">Vídeos</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Biblioteca_usuário/index.html">
+            <span class="icon">
+              <ion-icon name="library-outline"></ion-icon>
+            </span>
+            <span class="title">Biblioteca</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Atividades_usuário/index.html">
+            <span class="icon">
+              <ion-icon name="school-outline"></ion-icon>
+            </span>
+            <span class="title">Atividades</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Perfil_usuário/index.html">
+            <span class="icon">
+              <ion-icon name="person-circle-outline"></ion-icon>
+            </span>
+            <span class="title">Perfil</span>
+          </a>
+        </li>
+        <li>
+          <a href="/HomeLandingpage/index.html">
+            <span class="icon">
+              <ion-icon name="log-out-outline"></ion-icon>
+            </span>
+            <span class="title">Sair</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <main class="conteudo">
+    <div id="titulo">
+      <h1>O que é computação em nuvem ?</h1>
+    </div>
+    <div class="area">
+      <div class="informacoes">
+        <div class="responsavel">
+          <p>Claudio Iwakami - 28 / Jun |</p>
+          <p class="disciplina">Desenvolvimento de Sistemas</p>
+        </div>
+        <div id="pontuacao">
+          <h6>Nota: 0/3</h6>
+        </div>
+        <div class="descricao">
+          <p>
+            A atividade se refere à um estudo complementar da aula de hoje, deve ser feito um documento apresentando:
+            </br>
+            - O que é a computação nas nuvens;
+            </br>
+            - Como ela é aplicada ?;
+            </br>
+            - Cite pelo menos 5 exemplos;
+          </p>
+        </div>
+      </div>
+      <div class="input">
+        <div class="envio">        
+          <ion-icon id="icon" name="cloud-upload-outline"></ion-icon>
+          <p id="texto">Aguardando arquivo</p>
+        </div>
+        <button type="button" id="botao">Selecionar Arquivo</button>
+        <input type="file" name="file" id="file" hidden="hidden" required>
+        <input type="submit" name="file" id="envio">
+      </div>
+    </div>
+    <div class="comentario">
+      <h4>Comentários do Professor</h4>
+      <div class="professor">
+        <img src="https://lh3.googleusercontent.com/a-/AOh14GgHBeUbLjjdZhhIVK0l2hamfvSoK8fnQU9UZ-iq=s40-c"
+          alt="fotoPerfil">
+        <h6>Claudio Iwakami</h6>
+      </div>
+      <div class="areaTexto">
+        <p>O trabalho foi muito interessante!</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
