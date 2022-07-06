@@ -276,3 +276,34 @@ footer {
 }
 
 
+/* ------------- Responsividade ------------ */
+
+@media (max-width: 1140px) {
+  nav {
+    width: 50%;
+  }
+}
+
+@media (max-width: 950px) {
+  .slide {
+    height: 350px;
+  }
+  #home a {
+    font-size: 16px;
+  }
+  #pages button {
+    font-size: 12px;
+  }
+    header {
+    padding: 0px;
+  }
+  #containerprinci h1 {
+    font-size: 30px;
+  }
+  #containerprinci a {
+    font-size: 14px;
+  }
+  #containerprinci button {
+    font-size: 13px;
+  }
+}

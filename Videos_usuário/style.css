@@ -283,7 +283,6 @@ h2 {
 .recomendacoes {
     width: 100%;
     margin-top: 50px;
-    padding: 10px;
 }
 
 .recomendacoes dl {
@@ -304,7 +303,6 @@ h2 {
 .materias {
     width: 100%;
     margin-top: 50px;
-    padding: 10px;
 }
 
 .materias dl {
@@ -316,3 +314,19 @@ h2 {
     border-radius: 10px;
     width: 240px;
 }
+
+
+/* ------------- Responsividade ------------ */
+
+
+@media (max-width: 950px) {
+    .carouselPosition {
+        height: 70vh;
+    }
+    .recomendacoes img {
+        width: 200px;
+    }
+    .materias img {
+        width: 200px;
+    }
+  }

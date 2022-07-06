@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 body {
-  background-color: #DFF6FF;
+  background-color: #f5f5f5;
   padding-top: 7rem;
 }
 
@@ -94,7 +94,7 @@ article {
 #containerprinci {
   width: 100%;
   background-color: #0B4B73;
-  border-radius: 1.6rem;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,24 +183,18 @@ article {
   text-decoration: underline;
 }
 
-/* Carousel Bootstrap*/
-
-/* #carouselExampleControls {
-  z-index: -1;
-} */
-
-#carouselPosition {
+#imgPosition {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin: 150px;
 }
 
-.slide {
-    width: 500px;
+#imgPosition img {
+  background-color: #10171A;
+  border-radius: 50%;
+  width: 20%;
 }
-
-/* Fim Carousel*/ 
 
 /* Aqui finaliza a estilização do corpo */
 
@@ -277,5 +271,35 @@ footer {
 
 .rede img:hover {
   box-shadow: 0px 0px 10px #fff;
+}
+
+/* ------------- Responsividade ------------ */
+
+@media (max-width: 1140px) {
+  nav {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 950px) {
+  .slide {
+    height: 350px;
+  }
+  #home a {
+    font-size: 16px;
+  }
+  #pages button {
+    font-size: 12px;
+  }
+    header {
+    padding: 0px;
+  }
+  #containerprinci h1 {
+    font-size: 30px;
+  }
+  #containerprinci a {
+    font-size: 14px;
+  }
 }
 

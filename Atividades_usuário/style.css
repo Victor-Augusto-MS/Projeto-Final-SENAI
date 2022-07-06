@@ -283,3 +283,15 @@ body {
 }
 
 /* ________________________________*/
+
+/* ------------- Responsividade ------------ */
+
+
+@media (max-width: 880px) {
+    .entregue, .naoentregue, .aguardando {
+        width: 40%;
+    }
+    .status a {
+        font-size: 13px;
+  }
+}
